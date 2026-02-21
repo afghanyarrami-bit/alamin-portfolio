@@ -32,7 +32,7 @@
 
 ## 👤 About
 
-**alamin-portfolio** is a professional personal portfolio website for **Afghanyarrami-bit / Alamin**, a Frontend Developer based in 🇨🇭 Switzerland. This portfolio showcases projects, skills, experience, and contact information in a clean, modern, and fully responsive design.
+**alamin-portfolio** is a professional personal portfolio website for **Afghanyarrami-bit / Afghanyar**, a Frontend Developer based in 🇨🇭 Switzerland. This portfolio showcases projects, skills, experience, and contact information in a clean, modern, and fully responsive design.
 
 ---
 
@@ -232,7 +232,7 @@ npm run deploy
 
 <div align="center">
 
-**Alamin** — Frontend Developer 🇨🇭 Switzerland
+**Afghanyar** — Frontend Developer 🇨🇭 Switzerland
 
 [![GitHub](https://img.shields.io/badge/GitHub-afghanyarrami--bit-black?style=for-the-badge&logo=github)](https://github.com/afghanyarrami-bit)
 [![Upwork](https://img.shields.io/badge/Upwork-Available-6FDA44?style=for-the-badge&logo=upwork&logoColor=white)](#)
@@ -248,7 +248,7 @@ npm run deploy
 This project is licensed under the **MIT License** — feel free to use it as a template for your own portfolio!
 
 ```
-MIT License © 2025 Alamin (afghanyarrami-bit)
+MIT License © 2025 Afghanyar (afghanyarrami-bit)
 ```
 
 ---
