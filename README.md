@@ -39,14 +39,17 @@
 ## ✨ Features
 
 - ⚡ **Fast & Responsive** — Works perfectly on mobile, tablet, and desktop
-- 🎨 **Modern UI** — Clean brutalist design with smooth animations
-- 🌙 **Dark/Light Mode** — Toggle between themes
+- 🎨 **Modern UI** — Clean design with smooth animations
 - 📱 **Mobile First** — Designed for all screen sizes
-- 🔥 **Dynamic Components** — Built with reusable React components
-- 📬 **Contact Form** — Functional contact form with validation
-- 🗂 **Projects Section** — Showcase of all major projects with live links
-- 💼 **Skills Section** — Visual display of technical skills
-- 🏆 **Experience Timeline** — Professional work history
+- 🔥 **Reusable Components** — Shared Header, Footer, Heading components
+- 🏠 **Hero Section** — Eye-catching landing banner
+- 👤 **About Page** — Personal introduction and background
+- 🗂 **Portfolio Page** — Showcase of all major projects with live links
+- 🛠 **Services Page** — Services offered as a Frontend Developer
+- 📝 **Blog Page** — Articles and posts
+- 🔢 **Counter Section** — Animated statistics and numbers
+- ⭐ **Testimonials** — Client reviews and feedback
+- 📬 **Contact Page** — Functional contact form with validation
 
 ---
 
@@ -128,35 +131,41 @@ http://localhost:5173
 ```
 alamin-portfolio/
 │
-├── 📁 public/
-│   └── favicon.ico
-│
 ├── 📁 src/
+│   │
 │   ├── 📁 components/
-│   │   ├── Header.jsx
-│   │   ├── Hero.jsx
-│   │   ├── About.jsx
-│   │   ├── Skills.jsx
-│   │   ├── Projects.jsx
-│   │   ├── Experience.jsx
-│   │   ├── Contact.jsx
-│   │   └── Footer.jsx
+│   │   │
+│   │   ├── 📁 common/                  # Shared/reusable components
+│   │   │   ├── Footer.jsx              # Site footer
+│   │   │   ├── Header.jsx              # Site header & navigation
+│   │   │   └── Heading.jsx             # Reusable heading component
+│   │   │
+│   │   ├── 📁 data/                    # Data & assets
+│   │   │   ├── 📁 images/
+│   │   │   │   └── logo.png            # Project logo
+│   │   │   └── dummydata.js            # Static data (projects, skills, etc.)
+│   │   │
+│   │   ├── 📁 home/                    # Home page components
+│   │   │   ├── Hero.jsx                # Hero / banner section
+│   │   │   └── Home.jsx                # Main home page layout
+│   │   │
+│   │   └── 📁 pages/                   # All page components
+│   │       ├── About.jsx               # About me page
+│   │       ├── Blog.jsx                # Blog page
+│   │       ├── Contact.jsx             # Contact form page
+│   │       ├── Counter.jsx             # Animated counters section
+│   │       ├── Pages.jsx               # Pages router/wrapper
+│   │       ├── Portfolio.jsx           # Portfolio / projects page
+│   │       ├── Services.jsx            # Services offered page
+│   │       └── Testimonials.jsx        # Client testimonials page
 │   │
-│   ├── 📁 data/
-│   │   └── HeaderData.js
-│   │
-│   ├── 📁 assets/
-│   │   └── images/
-│   │
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
+│   ├── App.css                         # Global styles
+│   ├── App.js                          # Root app component
+│   └── App.test.js                     # App tests
 │
 ├── .gitignore
 ├── index.html
 ├── package.json
-├── tailwind.config.js
-├── vite.config.js
 └── README.md
 ```
 
