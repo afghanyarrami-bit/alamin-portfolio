@@ -67,8 +67,7 @@
 ---
 
 ## 📸 Screenshots
-
-> Coming soon — Add your project screenshots here
+![Alamin Portfolio](https://github.com/user-attachments/assets/296bd9ae-7f48-4374-a393-9854464d8918)
 
 ```
 📁 screenshots/
